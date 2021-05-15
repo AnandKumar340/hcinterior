@@ -8,8 +8,129 @@
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
-<?php include 'header.php';?>
-   
+<!--=============== css  ===============-->	
+<link type="text/css" rel="stylesheet" href="css/reset.css">
+<link type="text/css" rel="stylesheet" href="css/plugins.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/yourstyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<!--=============== favicons ===============-->
+<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+<!-- loader -->
+<div class="loader">
+    <div id="movingBallG">
+        <div class="movingBallLineG"></div>
+        <div id="movingBallG_1" class="movingBallG"></div>
+    </div>
+</div>
+<!-- loader end -->
+<!--================= Main   ================-->
+<div id="main">
+    <!--================= header ================-->
+    <header class="main-header">
+        <!-- logo -->
+        <a class="logo-holder" href="index.html"><img src="images/header-logo.png" alt=""></a>
+        <!-- logo end -->  
+        <!-- share button-->  
+        <div class="show-share-wrap">
+            <div class="openmodale"><span>Get Free Estimate</span></div>
+        </div>
+        <!-- share button end-->  	
+        	
+        <!-- mobile nav --> 
+        <div class="nav-button-wrap">
+            <div class="nav-button vis-main-menu"><span></span><span></span><span></span></div>
+        </div>
+        <!-- mobile nav end--> 
+        <!--  navigation --> 
+        <div class="nav-holder">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.php" class="act-link">Home </a>
+                        <!-- <ul>
+                            <li><a href="index.html">Slider</a></li>
+                            <li><a href="index2.html">Image</a></li>
+                            <li><a href="index3.html">Video</a></li>
+                            <li><a href="index4.html">Slideshow</a></li>
+                            <li><a href="index5.html">Carousel</a></li>
+                            <li><a href="index6.html">Sidebar menu</a></li>
+                            <li>
+                                <a>Onepage</a>
+                                <ul>
+                                    <li><a href="onepage-slider.html">Slider</a></li>
+                                    <li><a href="onepage-image.html">Image</a></li>
+                                    <li><a href="onepage-video.html">Video</a></li>
+                                    <li><a href="onepage-slideshow.html">Slideshow</a></li>
+                                    <li><a href="onepage-carousel.html">Carousel</a></li>
+                                    <li><a href="onepage-sidebarmenu.html">Sidebar menu</a></li>
+                                </ul>
+                            </li>									
+                        </ul> -->
+                        <!--second level end-->
+                    </li>
+                    <li>
+                        <a href="city.php">Cities</a>
+                         <!--second level end-->
+                         <ul>
+                            <li><a href="inner-city.php">Inner City</a></li>
+                        </ul>
+                        <!--second level end-->
+                    </li>
+                    <li>
+                        <a href="about.php"  >About</a>
+                    </li>
+                  
+                    <li>
+                        <a href="shop.html">Shop</a>
+                        <!--second level end-->
+                        <ul>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="product-single.html">Product Single</a></li>
+                        </ul>
+                        <!--second level end-->
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <!--second level end-->
+                        <ul>
+                            <li><a href="care.php">Care</a></li>
+                            <li><a href="career.php">Career</a></li>
+                            <li><a href="how-it-work.php">How It Works</a></li>
+                            <li><a href="policies.php">Policies</a></li>
+                            <li><a href="refer.php">Refer & Earn</a></li>
+                            <li><a href="technology.php">Technology</a></li>
+                            <li><a href="virtual-meeting.php">Book a Virtual Meeting</a></li>
+                            <li><a href="thank-you.php">Thank You</a></li>
+                            <li><a href="faq.php">FAQ</a></li>
+                            <li><a href="404.php">404</a></li>
+                        </ul>
+                        <!--second level end-->
+                    </li>
+                    <li>
+                        <a href="#">Blogs</a>
+                        <!--second level end-->
+                        <ul>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="single.php">Blog Single</a></li>
+                        </ul>
+                        <!--second level end-->
+                    </li>
+                    <li>
+                        <a href="contact.php">Contacts </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- navigation  end -->
+    </header>
+       <!-- header  end -->
+            <!--=============== wrapper ===============-->
+            <div id="wrapper">
+                <!-- content-holder  -->
+                <div class="content-holder">   
             <!-- hero content -->
             <div class="fl-wrap full-height hero-content par-bg" data-scrollax-parent="true" >
                 <div class="bg"  data-bg="images/bg/home-bg.jpg" data-scrollax="properties: { translateY: '200px' }" ></div>
@@ -950,4 +1071,159 @@
             </div>    
 
 
-            <?php include 'footer.php';?>
+<!--=============== content-footer   ===============-->
+ <div class="height-emulator"></div>
+ <footer class="content-footer">
+     <div class="footer-inner">
+         <div class="row">
+             <div class="col-md-3">
+                 <a class="footer-logo" href="index.html"><img src="images/logo.png" alt=""></a>
+             </div>
+             <div class="col-md-9">
+                 <div class="footer-header fl-wrap"></div>
+                 <div class="footer-box fl-wrap">
+                     <div class="footer-desc">
+                        <span>Disclaimer : </span>
+                        At HomeLane, we bring together functionality and aesthetics to provide homeowners with customised and efficient home designs. Our designers specialise in home interior designs and home décor, and help you create a personalised home to suit your lifestyle. From sophisticated living room designs to space-saving and clutter-free interior designs, we are here to help you find the best home decor and home design to match your needs and style. All our products come with up to 10-year warranty along with unwavering support and maintenance services. Explore thousands of inspiring interior designs or get a free estimate – it's all here on HomeLane.com, your one stop for complete home interiors.
+                    </div>
+                 </div>
+             </div>
+  
+         </div>
+         <div class="row">
+             <div class="col-md-3">
+                 <h3 class="widget-title">Hcinterior</h3>
+                 <ul class="footer-link">
+                     <li> <a href=""> About Us </a></li>
+                     <li> <a href=""> Team </a></li>
+                     <li> <a href=""> Join Us </a></li>
+                     <li> <a href=""> Ther design Journal </a></li>
+                     <li> <a href=""> Get Estimate </a></li>
+                     <li> <a href=""> Privacy Policy </a></li>
+                     <li> <a href=""> Refer and Earn </a></li>
+                     <li> <a href=""> Hcinterior care </a></li>
+                     <li> <a href=""> Tech@hcinverior.com </a></li>
+                     <li> <a href=""> Book a virtual Meeting </a></li>
+                     <li> <a href=""> Easy booking policy </a></li>
+                     <li> <a href=""> FAQ </a></li>
+                 </ul>
+             </div>
+             <div class="col-md-3">
+                 <h3 class="widget-title">Interior Designs</h3>
+                 <ul class="footer-link">
+                     <li> <a href=""> Interior design in Delhi </a></li>
+                     <li> <a href="">  Interior design in Noida </a></li>
+                     <li> <a href="">  Interior design in Gurugram </a></li>
+                     <li> <a href="">  Interior design in Haryana </a></li>
+                     <li> <a href="">  Interior design in Punjab </a></li>
+                     <li> <a href="">  Interior design in Haridwar</a></li>
+                     <li> <a href="">  Interior design in Karnatak </a></li>
+                     <li> <a href="">  Interior design in Asam </a></li>
+                     <li> <a href="">  Interior design in Pune </a></li>
+                     <li> <a href="">  Interior design in Maharashtra </a></li>
+                     <li> <a href="">  Interior design in Lucknow </a></li>
+                     <li> <a href="">  Interior design in Hadrabad </a></li>
+                 </ul>
+             </div>
+             <div class="col-md-3">
+                 <h3 class="widget-title">Interior Designs</h3>
+                 <ul class="footer-link">
+                     <li> <a href=""> Interior design in Delhi </a></li>
+                     <li> <a href="">  Interior design in Noida </a></li>
+                     <li> <a href="">  Interior design in Gurugram </a></li>
+                     <li> <a href="">  Interior design in Haryana </a></li>
+                     <li> <a href="">  Interior design in Punjab </a></li>
+                     <li> <a href="">  Interior design in Haridwar</a></li>
+                     <li> <a href="">  Interior design in Karnatak </a></li>
+                     <li> <a href="">  Interior design in Asam </a></li>
+                     <li> <a href="">  Interior design in Pune </a></li>
+                     <li> <a href="">  Interior design in Maharashtra </a></li>
+                     <li> <a href="">  Interior design in Lucknow </a></li>
+                     <li> <a href="">  Interior design in Hadrabad </a></li>
+                 </ul>
+             </div>
+             <div class="col-md-3">
+                 <h3 class="widget-title">Interior Designs</h3>
+                 <ul class="footer-link">
+                     <li> <a href=""> Interior design in Delhi </a></li>
+                     <li> <a href="">  Interior design in Noida </a></li>
+                     <li> <a href="">  Interior design in Gurugram </a></li>
+                     <li> <a href="">  Interior design in Haryana </a></li>
+                     <li> <a href="">  Interior design in Punjab </a></li>
+                     <li> <a href="">  Interior design in Haridwar</a></li>
+                     <li> <a href="">  Interior design in Karnatak </a></li>
+                     <li> <a href="">  Interior design in Asam </a></li>
+                     <li> <a href="">  Interior design in Pune </a></li>
+                     <li> <a href="">  Interior design in Maharashtra </a></li>
+                     <li> <a href="">  Interior design in Lucknow </a></li>
+                     <li> <a href="">  Interior design in Hadrabad </a></li>
+                 </ul>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-md-3"></div>
+             <div class="col-md-9">
+                 <div class="fl-wrap policy-box">
+                     <p> &#169; Hcinterior   2021.  All rights reserved.  </p>
+                 </div>
+             </div>
+         </div>
+         <div class="to-top"><i class="fa fa-arrow-up"></i></div>
+     </div>
+ </footer>
+ <!-- content-footer end    -->
+</div>
+<!-- content-holder end -->
+</div>
+<!-- wrapper end -->
+ 
+<!-- Share container  -->
+<div class="share-wrapper isShare">
+<div class="share-container"></div>
+</div>
+<!-- Share container  end-->
+<!-- footer -->
+<footer class="main-footer">
+<div class="fixed-title"><span>Home Page</span></div>
+<div class="footer-social">
+ <ul>
+     <li><a href="#" target="_blank" ><i class="fa fa-facebook"></i></a></li>
+     <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+     <li><a href="#" target="_blank" ><i class="fa fa-twitter"></i></a></li>
+     <li><a href="#" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+     <li><a href="#" target="_blank" ><i class="fa fa-youtube"></i></a></li>
+ </ul>
+</div>
+</footer>
+<!-- footer end-->
+</div>
+<!-- Main end -->
+<!--=============== scripts  ===============-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script>
+        $(".accordion__title.active").next().slideDown();
+$(".accordion__title").on("click", function () {
+  if( $(this).hasClass('active') ) {
+		$(this).removeClass("active").next().slideUp();
+	} else {
+		$(".accordion__title.active").removeClass("active").next(".accordion__body").slideUp();
+    $(this).addClass('active').next('.accordion__body').slideDown();
+	}
+});
+        </script>
+        <script>
+            //You may use vanilla JS, I just chose jquery
+$('.openmodale').click(function (e) {
+         e.preventDefault();
+         $('.modale').addClass('opened');
+    });
+$('.closemodale').click(function (e) {
+         e.preventDefault();
+         $('.modale').removeClass('opened');
+    });
+        </script>
+</body>
+
+</html>
